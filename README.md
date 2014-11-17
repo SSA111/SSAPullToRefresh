@@ -8,7 +8,9 @@ A simple PullToRefresh implementation, heavily inspired by XHRefreshControl, RHR
 
 ##Thanks
 https://github.com/rathahin/RHRefreshControl
+
 https://github.com/xhzengAIB/XHRefreshControl
+
 https://github.com/TransitApp/SVProgressHUD
 
 ##License
