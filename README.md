@@ -12,4 +12,4 @@ https://github.com/xhzengAIB/XHRefreshControl
 https://github.com/TransitApp/SVProgressHUD
 
 ##License
-This project is licensed under the MIT license.
+Do what you want with it. Have fun! :-) 
