@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC3F28391A1A5B4B00980D1F /* Ressources.bundle */; };
 		DCC62F251A193AC80088A81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F241A193AC80088A81D /* main.m */; };
 		DCC62F281A193AC80088A81D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F271A193AC80088A81D /* AppDelegate.m */; };
 		DCC62F2B1A193AC80088A81D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F2A1A193AC80088A81D /* ViewController.m */; };
-		DCC62F2E1A193AC80088A81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC62F2C1A193AC80088A81D /* Main.storyboard */; };
 		DCC62F301A193AC80088A81D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC62F2F1A193AC80088A81D /* Images.xcassets */; };
-		DCC62F331A193AC80088A81D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC62F311A193AC80088A81D /* LaunchScreen.xib */; };
 		DCC62F3F1A193AC80088A81D /* PULLTOREFRESHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F3E1A193AC80088A81D /* PULLTOREFRESHTests.m */; };
+		DCC62F4E1A193AF00088A81D /* SSACircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F4A1A193AF00088A81D /* SSACircleView.m */; };
+		DCC62F521A193AF50088A81D /* SSAPullToRefreshAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */; };
+		DCC62F5A1A193C7E0088A81D /* SSARefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F591A193C7E0088A81D /* SSARefreshControl.m */; };
+		DCC62F5C1A193F850088A81D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC62F5B1A193F850088A81D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC3F28391A1A5B4B00980D1F /* Ressources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ressources.bundle; sourceTree = "<group>"; };
 		DCC62F1F1A193AC80088A81D /* PULLTOREFRESH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PULLTOREFRESH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC62F231A193AC80088A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC62F241A193AC80088A81D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +38,17 @@
 		DCC62F271A193AC80088A81D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DCC62F291A193AC80088A81D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DCC62F2A1A193AC80088A81D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DCC62F2D1A193AC80088A81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCC62F2F1A193AC80088A81D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DCC62F321A193AC80088A81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCC62F381A193AC80088A81D /* PULLTOREFRESHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PULLTOREFRESHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC62F3D1A193AC80088A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC62F3E1A193AC80088A81D /* PULLTOREFRESHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PULLTOREFRESHTests.m; sourceTree = "<group>"; };
+		DCC62F491A193AF00088A81D /* SSACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSACircleView.h; sourceTree = "<group>"; };
+		DCC62F4A1A193AF00088A81D /* SSACircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSACircleView.m; sourceTree = "<group>"; };
+		DCC62F501A193AF50088A81D /* SSAPullToRefreshAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAPullToRefreshAnimator.h; sourceTree = "<group>"; };
+		DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAPullToRefreshAnimator.m; sourceTree = "<group>"; };
+		DCC62F581A193C7E0088A81D /* SSARefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSARefreshControl.h; sourceTree = "<group>"; };
+		DCC62F591A193C7E0088A81D /* SSARefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSARefreshControl.m; sourceTree = "<group>"; };
+		DCC62F5B1A193F850088A81D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC62F5C1A193F850088A81D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +91,12 @@
 		DCC62F211A193AC80088A81D /* PULLTOREFRESH */ = {
 			isa = PBXGroup;
 			children = (
+				DCC62F571A193B810088A81D /* SSAPullToRefresh */,
 				DCC62F261A193AC80088A81D /* AppDelegate.h */,
 				DCC62F271A193AC80088A81D /* AppDelegate.m */,
 				DCC62F291A193AC80088A81D /* ViewController.h */,
 				DCC62F2A1A193AC80088A81D /* ViewController.m */,
-				DCC62F2C1A193AC80088A81D /* Main.storyboard */,
 				DCC62F2F1A193AC80088A81D /* Images.xcassets */,
-				DCC62F311A193AC80088A81D /* LaunchScreen.xib */,
 				DCC62F221A193AC80088A81D /* Supporting Files */,
 			);
 			path = PULLTOREFRESH;
@@ -96,6 +105,7 @@
 		DCC62F221A193AC80088A81D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCC62F5B1A193F850088A81D /* QuartzCore.framework */,
 				DCC62F231A193AC80088A81D /* Info.plist */,
 				DCC62F241A193AC80088A81D /* main.m */,
 			);
@@ -117,6 +127,20 @@
 				DCC62F3D1A193AC80088A81D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCC62F571A193B810088A81D /* SSAPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F28391A1A5B4B00980D1F /* Ressources.bundle */,
+				DCC62F581A193C7E0088A81D /* SSARefreshControl.h */,
+				DCC62F591A193C7E0088A81D /* SSARefreshControl.m */,
+				DCC62F501A193AF50088A81D /* SSAPullToRefreshAnimator.h */,
+				DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */,
+				DCC62F491A193AF00088A81D /* SSACircleView.h */,
+				DCC62F4A1A193AF00088A81D /* SSACircleView.m */,
+			);
+			name = SSAPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC62F2E1A193AC80088A81D /* Main.storyboard in Resources */,
-				DCC62F331A193AC80088A81D /* LaunchScreen.xib in Resources */,
 				DCC62F301A193AC80088A81D /* Images.xcassets in Resources */,
+				DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC62F521A193AF50088A81D /* SSAPullToRefreshAnimator.m in Sources */,
+				DCC62F5A1A193C7E0088A81D /* SSARefreshControl.m in Sources */,
 				DCC62F2B1A193AC80088A81D /* ViewController.m in Sources */,
 				DCC62F281A193AC80088A81D /* AppDelegate.m in Sources */,
+				DCC62F4E1A193AF00088A81D /* SSACircleView.m in Sources */,
 				DCC62F251A193AC80088A81D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +268,6 @@
 			targetProxy = DCC62F391A193AC80088A81D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DCC62F2C1A193AC80088A81D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCC62F2D1A193AC80088A81D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCC62F311A193AC80088A81D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCC62F321A193AC80088A81D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCC62F401A193AC80088A81D /* Debug */ = {
@@ -343,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PULLTOREFRESH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PULLTOREFRESH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +421,7 @@
 				DCC62F441A193AC80088A81D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCC62F451A193AC80088A81D /* Build configuration list for PBXNativeTarget "PULLTOREFRESHTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +430,7 @@
 				DCC62F471A193AC80088A81D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
