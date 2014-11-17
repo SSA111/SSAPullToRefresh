@@ -62,7 +62,6 @@
     return cell;
 }
 
-
 - (void)beganRefreshing {
    
     [self loadDataSource];
