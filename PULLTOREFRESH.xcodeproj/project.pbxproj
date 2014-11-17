@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC20D8031A1A65EC0073344E /* SSAPullToRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DC20D8021A1A65EC0073344E /* SSAPullToRefresh.png */; };
 		DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC3F28391A1A5B4B00980D1F /* Ressources.bundle */; };
 		DCC62F251A193AC80088A81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F241A193AC80088A81D /* main.m */; };
 		DCC62F281A193AC80088A81D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F271A193AC80088A81D /* AppDelegate.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC20D8021A1A65EC0073344E /* SSAPullToRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSAPullToRefresh.png; sourceTree = "<group>"; };
 		DC3F28391A1A5B4B00980D1F /* Ressources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ressources.bundle; sourceTree = "<group>"; };
 		DCC62F1F1A193AC80088A81D /* PULLTOREFRESH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PULLTOREFRESH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC62F231A193AC80088A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		DCC62F211A193AC80088A81D /* PULLTOREFRESH */ = {
 			isa = PBXGroup;
 			children = (
+				DC20D8021A1A65EC0073344E /* SSAPullToRefresh.png */,
 				DCC62F571A193B810088A81D /* SSAPullToRefresh */,
 				DCC62F261A193AC80088A81D /* AppDelegate.h */,
 				DCC62F271A193AC80088A81D /* AppDelegate.m */,
@@ -223,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC20D8031A1A65EC0073344E /* SSAPullToRefresh.png in Resources */,
 				DCC62F301A193AC80088A81D /* Images.xcassets in Resources */,
 				DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */,
 			);
