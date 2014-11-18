@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DC20D8031A1A65EC0073344E /* SSAPullToRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DC20D8021A1A65EC0073344E /* SSAPullToRefresh.png */; };
-		DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC3F28391A1A5B4B00980D1F /* Ressources.bundle */; };
+		DC52D32B1A1BDA1500E8095D /* Ressources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC52D3241A1BDA1500E8095D /* Ressources.bundle */; };
+		DC52D32C1A1BDA1500E8095D /* SSACircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52D3261A1BDA1500E8095D /* SSACircleView.m */; };
+		DC52D32D1A1BDA1500E8095D /* SSAPullToRefreshAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52D3281A1BDA1500E8095D /* SSAPullToRefreshAnimator.m */; };
+		DC52D32E1A1BDA1500E8095D /* SSARefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52D32A1A1BDA1500E8095D /* SSARefreshControl.m */; };
 		DCC62F251A193AC80088A81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F241A193AC80088A81D /* main.m */; };
 		DCC62F281A193AC80088A81D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F271A193AC80088A81D /* AppDelegate.m */; };
 		DCC62F2B1A193AC80088A81D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F2A1A193AC80088A81D /* ViewController.m */; };
 		DCC62F301A193AC80088A81D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC62F2F1A193AC80088A81D /* Images.xcassets */; };
 		DCC62F3F1A193AC80088A81D /* PULLTOREFRESHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F3E1A193AC80088A81D /* PULLTOREFRESHTests.m */; };
-		DCC62F4E1A193AF00088A81D /* SSACircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F4A1A193AF00088A81D /* SSACircleView.m */; };
-		DCC62F521A193AF50088A81D /* SSAPullToRefreshAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */; };
-		DCC62F5A1A193C7E0088A81D /* SSARefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC62F591A193C7E0088A81D /* SSARefreshControl.m */; };
 		DCC62F5C1A193F850088A81D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC62F5B1A193F850088A81D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,13 @@
 
 /* Begin PBXFileReference section */
 		DC20D8021A1A65EC0073344E /* SSAPullToRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSAPullToRefresh.png; sourceTree = "<group>"; };
-		DC3F28391A1A5B4B00980D1F /* Ressources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ressources.bundle; sourceTree = "<group>"; };
+		DC52D3241A1BDA1500E8095D /* Ressources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ressources.bundle; path = SSAPullToRefresh/Ressources.bundle; sourceTree = "<group>"; };
+		DC52D3251A1BDA1500E8095D /* SSACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSACircleView.h; path = SSAPullToRefresh/SSACircleView.h; sourceTree = "<group>"; };
+		DC52D3261A1BDA1500E8095D /* SSACircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSACircleView.m; path = SSAPullToRefresh/SSACircleView.m; sourceTree = "<group>"; };
+		DC52D3271A1BDA1500E8095D /* SSAPullToRefreshAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAPullToRefreshAnimator.h; path = SSAPullToRefresh/SSAPullToRefreshAnimator.h; sourceTree = "<group>"; };
+		DC52D3281A1BDA1500E8095D /* SSAPullToRefreshAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAPullToRefreshAnimator.m; path = SSAPullToRefresh/SSAPullToRefreshAnimator.m; sourceTree = "<group>"; };
+		DC52D3291A1BDA1500E8095D /* SSARefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSARefreshControl.h; path = SSAPullToRefresh/SSARefreshControl.h; sourceTree = "<group>"; };
+		DC52D32A1A1BDA1500E8095D /* SSARefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSARefreshControl.m; path = SSAPullToRefresh/SSARefreshControl.m; sourceTree = "<group>"; };
 		DCC62F1F1A193AC80088A81D /* PULLTOREFRESH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PULLTOREFRESH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC62F231A193AC80088A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC62F241A193AC80088A81D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,12 +50,6 @@
 		DCC62F381A193AC80088A81D /* PULLTOREFRESHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PULLTOREFRESHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC62F3D1A193AC80088A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC62F3E1A193AC80088A81D /* PULLTOREFRESHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PULLTOREFRESHTests.m; sourceTree = "<group>"; };
-		DCC62F491A193AF00088A81D /* SSACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSACircleView.h; sourceTree = "<group>"; };
-		DCC62F4A1A193AF00088A81D /* SSACircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSACircleView.m; sourceTree = "<group>"; };
-		DCC62F501A193AF50088A81D /* SSAPullToRefreshAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAPullToRefreshAnimator.h; sourceTree = "<group>"; };
-		DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAPullToRefreshAnimator.m; sourceTree = "<group>"; };
-		DCC62F581A193C7E0088A81D /* SSARefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSARefreshControl.h; sourceTree = "<group>"; };
-		DCC62F591A193C7E0088A81D /* SSARefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSARefreshControl.m; sourceTree = "<group>"; };
 		DCC62F5B1A193F850088A81D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -135,13 +135,13 @@
 		DCC62F571A193B810088A81D /* SSAPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				DC3F28391A1A5B4B00980D1F /* Ressources.bundle */,
-				DCC62F581A193C7E0088A81D /* SSARefreshControl.h */,
-				DCC62F591A193C7E0088A81D /* SSARefreshControl.m */,
-				DCC62F501A193AF50088A81D /* SSAPullToRefreshAnimator.h */,
-				DCC62F511A193AF50088A81D /* SSAPullToRefreshAnimator.m */,
-				DCC62F491A193AF00088A81D /* SSACircleView.h */,
-				DCC62F4A1A193AF00088A81D /* SSACircleView.m */,
+				DC52D3241A1BDA1500E8095D /* Ressources.bundle */,
+				DC52D3251A1BDA1500E8095D /* SSACircleView.h */,
+				DC52D3261A1BDA1500E8095D /* SSACircleView.m */,
+				DC52D3271A1BDA1500E8095D /* SSAPullToRefreshAnimator.h */,
+				DC52D3281A1BDA1500E8095D /* SSAPullToRefreshAnimator.m */,
+				DC52D3291A1BDA1500E8095D /* SSARefreshControl.h */,
+				DC52D32A1A1BDA1500E8095D /* SSARefreshControl.m */,
 			);
 			name = SSAPullToRefresh;
 			sourceTree = "<group>";
@@ -227,8 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC20D8031A1A65EC0073344E /* SSAPullToRefresh.png in Resources */,
+				DC52D32B1A1BDA1500E8095D /* Ressources.bundle in Resources */,
 				DCC62F301A193AC80088A81D /* Images.xcassets in Resources */,
-				DC3F283A1A1A5B4B00980D1F /* Ressources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,12 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC62F521A193AF50088A81D /* SSAPullToRefreshAnimator.m in Sources */,
-				DCC62F5A1A193C7E0088A81D /* SSARefreshControl.m in Sources */,
+				DC52D32D1A1BDA1500E8095D /* SSAPullToRefreshAnimator.m in Sources */,
 				DCC62F2B1A193AC80088A81D /* ViewController.m in Sources */,
 				DCC62F281A193AC80088A81D /* AppDelegate.m in Sources */,
-				DCC62F4E1A193AF00088A81D /* SSACircleView.m in Sources */,
+				DC52D32C1A1BDA1500E8095D /* SSACircleView.m in Sources */,
 				DCC62F251A193AC80088A81D /* main.m in Sources */,
+				DC52D32E1A1BDA1500E8095D /* SSARefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
