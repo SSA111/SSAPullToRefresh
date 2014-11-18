@@ -3,7 +3,7 @@ SSAPullToRefresh
 A simple PullToRefresh implementation, heavily inspired by XHRefreshControl, RHRefreshControl, SVProgressHUD & the look of the Facebook iOS App PullToRefresh component. 
 
 
-![My image](https://github.com/SSA111/SSACreditCardValidator/blob/master/SSACreditCardValidator/Image.png?raw=true)
+![My image](https://github.com/SSA111/SSAPullToRefresh/blob/master/PULLTOREFRESH/SSAPullToRefresh.png?raw=true)
 
 
 ##Thanks
