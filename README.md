@@ -1,5 +1,7 @@
 SSAPullToRefresh
 ================
+NO LONGER MAINTAINED!
+
 A simple PullToRefresh implementation, heavily inspired by XHRefreshControl, RHRefreshControl, SVProgressHUD & the look of the Facebook iOS App PullToRefresh component. 
 
 
